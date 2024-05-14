@@ -45,4 +45,9 @@ public class Fruit {
     public void setQuantityKilos(int quantityKilos) {
         this.quantityKilos = quantityKilos;
     }
+
+    @Override
+    public String toString() {
+        return "Fruit " + name + ", with id " + id + ", weighting " + quantityKilos +" kg";
+    }
 }
